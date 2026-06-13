@@ -1,26 +1,26 @@
-fx_version "cerulean"
-game "gta5"
-lua54 "yes"
+fx_version 'cerulean'
+game 'gta5'
+lua54 'yes'
 
-name "filo_stress"
-author "filo studios."
-discord "https://discord.gg/bErPEKvRXg"
-description ""
-version "1.0.0"
+name 'filo_stress'
+author 'filo studios.'
+discord 'https://discord.gg/bErPEKvRXg'
+description ''
+version '1.0.0'
 
 shared_scripts {
-    "@ox_lib/init.lua",
-    "config.lua"
+    '@ox_lib/init.lua',
+    'config.lua'
 }
 
 server_scripts {
-    "bridge/**/sv-*.lua",
-    "server/sv-*.lua"
+    'bridge/**/sv-*.lua',
+    'server/sv-*.lua'
 }
 
 client_scripts {
-    "bridge/**/cl-*.lua",
-    "client/cl-*.lua"
+    'bridge/**/cl-*.lua',
+    'client/cl-*.lua'
 }
 
 escrow_ignore {}
